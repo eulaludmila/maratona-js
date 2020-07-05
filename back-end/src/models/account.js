@@ -8,7 +8,16 @@ module.exports = (sequelize, DataTypes) =>{
             type: DataTypes.STRING,
             allowNull:false,
         },
+        jwtVersion: {
+            type: DataTypes.INTEGER,
+            allowNull:false,
+            defaultValue:0,
+        }
     });
+
+    Account.associate = models => {
+        Account.hasMany(models.Link, {foreignKey:'accountId'});
+    }
 
     Account.prototype.toJSON = function(){
         //Pegando todos os valores da requisição get
