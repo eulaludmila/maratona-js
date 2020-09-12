@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const NavMenu = styled.div`
     width:100%;
     height:60px;
-    background-color:red;
+    background-color:#7139ad;
 
     ul{
         width:100%;

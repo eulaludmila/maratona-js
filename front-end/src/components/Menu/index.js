@@ -10,7 +10,7 @@ const Menu = () => {
                 <li><Link to="/sign-up">Sing up</Link></li>
                 <li><Link to="/manage/links/create">Create Link</Link></li>
                 <li><Link to="/manage/links/edit">Edit Link</Link></li>
-                <li><Link to="/manage/links">Edit Link</Link></li>
+                <li><Link to="/manage/links">Links</Link></li>
             </ul>
         </NavMenu>
     )

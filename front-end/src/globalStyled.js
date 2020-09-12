@@ -8,4 +8,6 @@ export default createGlobalStyle`
         height:auto;
         margin: 0 auto;
     }
+
+ 
 `;
